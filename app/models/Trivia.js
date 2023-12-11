@@ -20,9 +20,9 @@ export class TriviaModel {
         </div>
         <div class="row d-flex justify-content-center">
             <div class="col-6 text-center">${this.correct_answer}</div>
-            <div class="col-6 text-center">${this.incorrect_answers}</div>
-            <div class="col-6 text-center">${this.incorrect_answers}</div>
-            <div class="col-6 text-center">${this.incorrect_answers}</div>
+            <div class="col-6 text-center">${this.incorrect_answers[0]}</div>
+            <div class="col-6 text-center">${this.incorrect_answers[1]}</div>
+            <div class="col-6 text-center">${this.incorrect_answers[2]}</div>
 
         </div>
     </div>
